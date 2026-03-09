@@ -1,0 +1,178 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: cursive;
+}
+.indl-poke-detail{
+  padding-top: 80px;
+  background: white;
+}
+.header-name{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: 500;
+  gap: 10px;
+  text-transform: capitalize;
+  background: white;
+  z-index: 2;
+}
+.id-badge{
+  color: grey;
+}
+.poke-img-info{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding: 25px;
+  gap: 30px;
+}
+.indl-poke-img{
+  height: 500px;
+  width: 450px;
+  background: #F2F2F2;
+  border-radius: 7px;
+}
+.info-grid{
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  background-color: cadetblue;
+  border-radius: 1rem;
+  gap: 50px;
+  width: 450px;
+  padding: 20px 50px;
+  margin-top: 20px;;
+}
+.grid1,.grid2{
+  display: grid;
+  gap: 20px;
+}
+.item{
+  display: grid;
+  gap: 10px;
+}
+.item-name{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.15rem;
+  color: #fff;
+}
+.item-val{
+  font-size: 1.4rem;
+  color: rgba(48, 48, 48, 0.791);
+}
+.type-box{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+.type-weak-strength{
+  display: grid;
+  justify-content: center;
+}
+.type-poke{
+  margin: 5px 0;
+}
+.title-base-stats{
+  font-size: 1.4rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+}
+.stats-container {
+  display: grid;
+  grid-template-columns: max-content 1fr auto;  
+  width: 100%;
+  max-width: 800px;
+  margin: 20px;
+  padding: 10px;
+}
+.stat-row {
+  display: contents;
+}
+.all-stats{
+  text-transform: capitalize;
+  text-align: left;
+}
+.bar-bg {
+  background: #eeeeeed9;
+  margin-top: 5px;
+  gap: 8px;
+  height: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+@keyframes fill_bar{
+    from{
+        width: 0;
+    }
+}
+.bar-fill {
+  animation: fill_bar 1.5s ease-out both paused; 
+  background: #ff5350; 
+  height: 100%;
+}
+.start-animation .bar-fill {
+  animation-play-state: running;
+}
+.stats-num{
+  margin-left: 10px;
+}
+.evolution{
+  margin: 50px;
+  background: rgba(0, 0, 0, 0.262);
+  background-image: 
+    repeating-linear-gradient(
+      45deg,
+      #00000069,
+      #00000085 10px
+  );
+
+}
+.evolution{
+  padding : 20px;
+}
+.evolution-title{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 35px 20px;
+  font-size: 2rem;
+  color: white;
+}
+.poke-gen{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 20px 10px 30px 10px;
+}
+.poke-evo-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 250px;
+  width: 250px;
+  background-color: grey;
+  border: 5px solid white;
+  border-radius: 50%;
+}
+.evo-poke-img{
+  height: 200px;
+  width: 200px;
+}
+.poke-evo-name{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 5px;
+}
+.gen-name{
+  color: white;
+  font-size: 1.5rem;
+}
+.gen-id{
+  margin-top: 5px;
+  font-size: 1.25rem;
+}

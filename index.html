@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="pokeball.png">
+</head>
+<body>
+    <header>
+        <div class="header-img">
+            <div class="navbar1">
+                <div class="pok-logo-cat">
+                    <div class="logo main-logo">
+                        <img src="pokemon.png" alt="Pokemon Logo">
+                    </div>
+                </div>
+                <div class="heading-cat">
+                    <div class="nav-itm1 logo">
+                        <img src="pikachu(header).png" alt="Pikachu" class="itm1">
+                    </div>
+                    <div class="nav-itm1 logo">
+                        <img src="aboutUs.png" alt="About Us" class="itm1">
+                    </div>
+                </div>
+                <div class="game-cat">
+                    <div class="nav-itm2 logo">
+                        <img src="trading card game.png" alt="Pokemon Trading Card Game" class="itm2">
+                    </div>
+                    <div class="nav-itm2 logo">
+                        <img src="legends.png" alt="Pokemon Legends" class="itm2">
+                    </div>
+                    <div class="nav-itm2 logo">
+                        <img src="forums.png" alt="Pokemon Forums" class="itm2">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="navbar2">
+        <div class="catagory">
+            <div class="nav2-itm home">
+                <div class="info" title="home">Home</div>
+            </div>
+            <div class="nav2-itm pokédex">
+                <div class="info" title="pokédex">Pokédex</div>
+            </div>
+            <div class="nav2-itm vid-game">
+                <div class="info" title="video games & apps">Video Games & Apps</div>
+            </div>
+            <div class="nav2-itm trade-card">
+                <div class="info" title="trading card game">Trading card game</div>
+            </div>
+            <div class="nav2-itm animation">
+                <div class="info" title="animation">Animation</div>
+            </div>
+            <div class="nav2-itm events">
+                <div class="info" title="pokémon events">Play! Pokémon Events</div>
+            </div>
+            <div class="nav2-itm news">
+                <div class="info" title="news">News</div>
+            </div>
+            <div class="account">
+                <i class="fa-jelly fa-regular fa-user" id="profile"></i>
+            </div>
+        </div>
+    </div>
+    <main>
+        <div class="title">
+            <div id="pokédex">Pokédex</div>
+        </div>
+        <div class="search-bar">
+            <div class="search-tool">
+                <div class="name-number">Name or Number</div>
+                    <div class="search">
+                        <input type="text" id="poke-search" placeholder="Search the Pokémon">
+                        <label for="poke-search">
+                            <i class="fa-solid fa-magnifying-glass" id="poke-search-i"></i>
+                        </label>
+                    </div>
+                <div class="text-search">
+                    <p>Use the Search to explore Pokémon by Type, Weakness, Ability and more!</p>
+                </div>
+            </div>
+            <div class="search-info">
+                <p>Search for a Pokémon by name or using its National Pokédex number.</p>
+            </div>
+        </div>
+        <div class="pokemon-cards">
+            <div class="pokemon-sec">
+            </div>
+            <button class="load-more">Load More</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
